@@ -16,41 +16,45 @@
 | PostgreSQL | ++    |
 
 ## My Projects
-**Airflow Dags**
-	- **Goal**:
-		- Creata DAGs to demonstrate Airflow's functional capabilities.
+### Airflow Dags
+*In progress project.*
+
+**Goal**:
+- Creata DAGs to demonstrate Airflow's functional capabilities.
 
 
-**Budget Tracker**
-	- **Goal**:
-		- Web app for tracking household incomes and expenses.
+### Budget Tracker
+*In progress project.*
 
-	- **Stack**
-		- Python
-			- Flask
-			- SQLAlchemy
-			- WTFForms
-	- Database:
-		- PostgreSQL
-	- Others:
-		- Docker
-		- Nginx
+**Goal**:
+- Web app for tracking household incomes and expenses.
 
-	- **What I learnt**:
-		- Proper desing of the database schema is very, very, very importany. After start project changes are difficult to implement.
+**Stack**
+- Python
+	- Flask
+	- SQLAlchemy
+	- WTFForms
+- Database:
+	- PostgreSQL
+- Others:
+	- Docker
+	- Nginx
+
+**What I learnt**:
+- Proper desing of the database schema is very, very, very importany. After start project changes are difficult to implement.
 
 
-**shoesCalc**
-	- **Goal**:
-		- Web application for analyzing shoes prices.
+### shoesCalc
+**Goal**:
+- Web application for analyzing shoes prices.
 
-	- **Description**:
-		- Old project in times when I learn html, css and javascript.
+**Description**:
+- Old project in times when I learn html, css and javascript.
 
-**gusapi**
-	- **Goal**:
-		- Web app for analysins data from GUS (polish goverment's institude for statiscal data)
+### gusapi
+**Goal**:
+- Web app for analysins data from GUS (polish goverment's institude for statiscal data)
 
-	- **Description**:
-		- Old project in times when I learn html, css and javascript.
+**Description**:
+- Old project in times when I learn html, css and javascript.
 
