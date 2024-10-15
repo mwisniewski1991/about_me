@@ -16,6 +16,11 @@
 | PostgreSQL | ++    |
 
 ## My Projects
+- **Airflow Dags**
+	- **Goal**:
+		- Creata DAGs to demonstrate Airflow's functional capabilities.
+
+
 - **Budget Tracker**
 
 	- **Goal**:
