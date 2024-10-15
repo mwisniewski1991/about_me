@@ -1,6 +1,8 @@
 # About ME
 
 ## My professional goal
+Exploring the tools in big data. Automation tools, orchestration tools, databases, data processing tools and analysis.
+
 
 ## Skills
 | Skill      | Level |
