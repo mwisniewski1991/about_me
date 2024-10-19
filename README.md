@@ -26,45 +26,31 @@ Legends:
 
 
 ## My Projects
-### Airflow Dags
-*In progress project.*
 
-**Goal**:
-- Creata DAGs to demonstrate Airflow's functional capabilities.
+### Airflow DAGs
+*In progress project*
 
+**Goal**: Create DAGs to demonstrate Airflow's functional capabilities.
 
 ### Budget Tracker
-*In progress project.*
+*In progress project*
 
-**Goal**:
-- Web app for tracking household incomes and expenses.
+**Goal**: Develop a web app for tracking household incomes and expenses.
 
-**Stack**
-- Python
-	- Flask
-	- SQLAlchemy
-	- WTFForms
-- Database:
-	- PostgreSQL
-- Others:
-	- Docker
-	- Nginx
+**Stack**:
+- Python (Flask, SQLAlchemy, WTForms)
+- Database: PostgreSQL
+- Others: Docker, Nginx
 
-**What I learnt**:
-- Proper desing of the database schema is very, very, very importany. After start project changes are difficult to implement.
-
+**Key Learning**: Proper design of the database schema is crucial. Changes after project initiation are challenging to implement.
 
 ### shoesCalc
-**Goal**:
-- Web application for analyzing shoes prices.
+**Goal**: Develop a web application for analyzing shoe prices.
 
-**Description**:
-- Old project in times when I learn html, css and javascript.
+**Description**: An early project developed while learning HTML, CSS, and JavaScript.
 
 ### gusapi
-**Goal**:
-- Web app for analysins data from GUS (polish goverment's institude for statiscal data)
+**Goal**: Create a web app for analyzing data from GUS (Polish government's institute for statistical data).
 
-**Description**:
-- Old project in times when I learn html, css and javascript.
+**Description**: An early project developed while learning HTML, CSS, and JavaScript.
 
