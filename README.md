@@ -10,14 +10,12 @@ Exploring the tools in big data. Automation tools, orchestration tools, database
 | Python     | +++   |
 | SQL        | +++   |
 | Airflow    | +++   |
-
 | git        | ++    |
 | Docker     | ++    |
 | PostgreSQL | ++    |
 | Flask      | ++    |
 | Linux      | ++    |
 | Grafana    | ++    |
-
 | nginx      | +     |
 
 
