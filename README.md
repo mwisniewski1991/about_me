@@ -10,12 +10,22 @@ Exploring the tools in big data. Automation tools, orchestration tools, database
 | Python     | +++   |
 | SQL        | +++   |
 | Airflow    | +++   |
+
 | git        | ++    |
 | Docker     | ++    |
-| Linux      | ++    |
-| Flask      | ++    |
-| Grafana    | ++    |
 | PostgreSQL | ++    |
+| Flask      | ++    |
+| Linux      | ++    |
+| Grafana    | ++    |
+
+| nginx      | +     |
+
+
+Legends:
+- `+++` - commercial experience
+- `++`  - private projects experience
+- `+`   - learning experience
+
 
 ## My Projects
 ### Airflow Dags
