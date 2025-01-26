@@ -1,8 +1,8 @@
 # About ME
 
 ## My professional goal
-Exploring the tools in big data. Automation tools, orchestration tools, databases, data processing tools and analysis.
-
+I have extensive experience in SQL and Python with expertise in creating ETL processes using Apache Airflow.
+I aim to deepen my knowledge of data modeling and building data-driven organizations. My goal is to combine technical skills with creating valuable business solutions.
 
 ## Skills
 | Skill      | Level |
@@ -23,6 +23,9 @@ Legends:
 - `+++` - commercial experience
 - `++`  - private projects experience
 - `+`   - learning experience
+
+## Currently
+- Take a participation in Data Engineerning Bootcamp by DataExpert.io
 
 
 ## My Projects
@@ -54,3 +57,21 @@ Legends:
 
 **Description**: An early project developed while learning HTML, CSS, and JavaScript.
 
+
+
+## Courses
+**Data Engineering Bootcamp**
+2024.12 - 2025.01: 
+DataExpert.io 
+
+**AIdevs 3**
+2024.11 - 2024.12
+AIdevs 
+
+**Automation of Data Extraction from the Internet**
+2022.09 - 2022.10 
+Informatyk Zakładowy
+
+**Data Analysis with Python**
+2020.06 - 2020.07 
+Sages 
