@@ -76,3 +76,12 @@ Informatyk Zakładowy
 **Data Analysis with Python**
 2020.06 - 2020.07 
 Sages 
+
+### Small workshops
+- Pytest (FreeCodeCamp)
+- Git (FreeCodeCamp)
+- Harvard CS50 (edX)
+- Routing and firewalls in an hour (wiedza.mrugalski.pl)
+- Nginx in an hour (wiedza.mrugalski.pl)
+- Docker in an hour (wiedza.mrugalski.pl)
+- How does the internet work? (FreeCodeCamp)
