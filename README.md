@@ -26,7 +26,7 @@ Legends:
 - `+`   - learning experience
 
 ## Currently
-- Take a participation in Data Engineerning Bootcamp by DataExpert.io
+- Creating CI/CD process for my Budget Tracker.
 
 
 ## My Projects
