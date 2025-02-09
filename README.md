@@ -10,6 +10,7 @@ I aim to deepen my knowledge of data modeling and building data-driven organizat
 | Python     | +++   |
 | SQL        | +++   |
 | Airflow    | +++   |
+| ETL        | +++   |
 | git        | ++    |
 | Docker     | ++    |
 | PostgreSQL | ++    |
