@@ -48,16 +48,6 @@ Legends:
 
 **Key Learning**: Proper design of the database schema is crucial. Changes after project initiation are challenging to implement.
 
-### shoesCalc
-**Goal**: Develop a web application for analyzing shoe prices.
-
-**Description**: An early project developed while learning HTML, CSS, and JavaScript.
-
-### gusapi
-**Goal**: Create a web app for analyzing data from GUS (Polish government's institute for statistical data).
-
-**Description**: An early project developed while learning HTML, CSS, and JavaScript.
-
 
 
 ## Courses
