@@ -17,43 +17,31 @@ WITH DATA AS  (
 )
 ,GROUPED AS (
 	select 
-		grouping(category, subcategory) grouping_id
+		grouping(category, subcategory) as grouping_id
 		,category
 		,subcategory
 		,sum(sales) AS sales_sum
-        ,SUM(sum(sales)) OVER () AS total_sales
-        ,SUM(sum(sales)) OVER (PARTITION BY category) AS category_sales
-        ,SUM(sum(sales)) OVER (PARTITION BY subcategory) AS subcategory_sales
-        ,SUM(sum(sales)) OVER (PARTITION BY grouping(category, subcategory)) AS total_sales_grouped
-        ,SUM(sum(sales)) OVER (PARTITION BY grouping(category, subcategory), category) AS category_sales_grouped
-        ,SUM(sum(sales)) OVER (PARTITION BY grouping(category, subcategory), subcategory) AS subcategory_sales_grouped
-        -- ,ROUND(sum(sales) / SUM(sum(sales)) OVER () * 100, 2) AS TO_TOTAL_SALES
-        -- ,ROUND(sum(sales) / SUM(sum(sales)) OVER (PARTITION BY category) * 100, 2) AS TO_CATEGORY_SALES
-        -- ,ROUND(sum(sales) / SUM(sum(sales)) OVER (PARTITION BY subcategory) * 100, 2) AS TO_SUBCATEGORY_SALES
-        -- ,round(sum(sales) / SUM(sum(sales)) OVER (PARTITION BY GROUPING(category, subcategory)) * 100, 2) AS TO_TOTAL_SALES
-        -- ,round(sum(sales) / SUM(sum(sales)) OVER (PARTITION BY GROUPING(category, subcategory), category) * 100, 2) AS TO_CATEGORY_SALES
-        -- ,round(sum(sales) / SUM(sum(sales)) OVER (PARTITION BY GROUPING(category, subcategory), subcategory) * 100, 2) AS TO_SUBCATEGORY_SALES
 	from data
 	group by grouping sets(
+		(),
 		(category),
+		(subcategory),
 		(category, subcategory)
 	)
 )
-SELECT * 
-FROM GROUPED
-order by grouping_id;
-
 select 
 	grouping_id
 	,category
 	,subcategory
 	,sales_sum
-
-	,ROUND(sales_sum/ SUM(sales_sum) OVER (PARTITION BY category) * 100, 2) AS WRONG_category_participation
-	,SUM(sales_sum) OVER (PARTITION BY category) AS WRONG_category_divdor
-
-	,ROUND(sales_sum/ SUM(sales_sum) OVER (PARTITION BY grouping_id) * 100, 2) AS category_participation
-	,SUM(sales_sum) OVER (PARTITION BY grouping_id) AS category_divdor
-
+	,ROUND(sales_sum/ SUM(sales_sum) OVER () * 100, 2) AS WRONG__participation
+	,SUM(sales_sum) OVER () AS WRONG_participation_divdor
+	,ROUND(sales_sum/ SUM(sales_sum) OVER (PARTITION BY grouping_id) * 100, 2) AS participation
+	,SUM(sales_sum) OVER (PARTITION BY grouping_id) AS participation_divdor
+	,ROUND(sales_sum/ SUM(sales_sum) OVER (PARTITION BY grouping_id, category) * 100, 2) AS category_participation
+	,SUM(sales_sum) OVER (PARTITION BY grouping_id, category) AS category_divdor
+	,ROUND(sales_sum/ SUM(sales_sum) OVER (PARTITION BY grouping_id, subcategory) * 100, 2) AS subcategory_participation
+	,SUM(sales_sum) OVER (PARTITION BY grouping_id, subcategory) AS subcategory_divdor
 from GROUPED
-order BY grouping_id
+order BY grouping_id;
+
