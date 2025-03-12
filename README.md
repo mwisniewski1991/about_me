@@ -17,7 +17,6 @@ I aim to deepen my knowledge of data modeling and building data-driven organizat
 | Flask      | ++    |
 | Linux      | ++    |
 | Grafana    | ++    |
-| nginx      | +     |
 
 
 Legends:
@@ -26,20 +25,29 @@ Legends:
 - `+`   - learning experience
 
 ## Currently
-- Creating CI/CD process for my Budget Tracker.
+- Gathering data for Lunch Tracker.
 
 
 ## My Projects
 
-### Airflow DAGs
+### Lunch Tracker
 *In progress project*
 
-**Goal**: Create DAGs to demonstrate Airflow's functional capabilities.
+**Goal**: Gather data from Lunch App and get some insights.
+
+**Stack**:
+- Python 
+- Orchestration: Airflow
+- Other: Docker
+
 
 ### Budget Tracker
 *In progress project*
 
 **Goal**: Develop a web app for tracking household incomes and expenses.
+
+**Description**: 
+In the past I use Excel to track my budget. Now I want to try to create my own app on which I will learn how to manage longer projects and make app improvments.
 
 **Stack**:
 - Python (Flask, SQLAlchemy, WTForms)
@@ -47,6 +55,14 @@ Legends:
 - Others: Docker, Nginx
 
 **Key Learning**: Proper design of the database schema is crucial. Changes after project initiation are challenging to implement.
+
+### notes
+*In progress project*
+
+**Goal** Try to create notes from what I learned
+**Description**: I make notes in Obisidan app to learn new things but only in short form. Hear I will try longer form with some description.
+
+
 
 
 
