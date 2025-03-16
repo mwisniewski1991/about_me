@@ -26,7 +26,8 @@ Legends:
 
 ## Currently
 - Gathering data for Lunch Tracker.
-
+- Reading: SQL for Data Analysis: Advanced Techniques for Transforming Data into Insights
+- Start to contribute to Open Street Map.
 
 ## My Projects
 
