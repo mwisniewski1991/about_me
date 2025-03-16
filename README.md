@@ -65,8 +65,6 @@ In the past I use Excel to track my budget. Now I want to try to create my own a
 
 
 
-
-
 ## Courses
 **Data Engineering Bootcamp**
 2024.12 - 2025.01: 
