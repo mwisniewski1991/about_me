@@ -25,22 +25,9 @@ Legends:
 - `+`   - learning experience
 
 ## Currently
-- Gathering data for Lunch Tracker.
-- Reading: SQL for Data Analysis: Advanced Techniques for Transforming Data into Insights
-- Start to contribute to Open Street Map.
+- Checking course for Google Certifications
 
 ## My Projects
-
-### Lunch Tracker
-*In progress project*
-
-**Goal**: Gather data from Lunch App and get some insights.
-
-**Stack**:
-- Python 
-- Orchestration: Airflow
-- Other: Docker
-
 
 ### Budget Tracker
 *In progress project*
@@ -56,13 +43,6 @@ In the past I use Excel to track my budget. Now I want to try to create my own a
 - Others: Docker, Nginx
 
 **Key Learning**: Proper design of the database schema is crucial. Changes after project initiation are challenging to implement.
-
-### notes
-*In progress project*
-
-**Goal** Try to create notes from what I learned
-**Description**: I make notes in Obisidan app to learn new things but only in short form. Hear I will try longer form with some description.
-
 
 
 ## Courses
