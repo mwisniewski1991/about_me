@@ -47,7 +47,7 @@ In the past I use Excel to track my budget. Now I want to try to create my own a
 
 ## Courses
 **Associate Data Practitioner**
-2025.06
+2025.06 - ****_**
 Google Cloud Platform
 
 **Data Engineering Bootcamp**
