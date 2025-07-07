@@ -73,6 +73,8 @@ On the mikr.us platform, I aim to learn how distributed computing applications w
 
 ### Lunch Analysis
 
+https://github.com/mwisniewski1991/smartlunch_analysis
+
 **Goal**: Data collection and analysis of meals available through the SmartLunch application delivered to my workplace.
 
 **Description**: 
