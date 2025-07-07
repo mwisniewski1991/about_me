@@ -55,6 +55,8 @@ In the past I use Excel to track my budget. Now I want to try to create my own a
 
 ### Spark on Mikrus
 
+https://github.com/mwisniewski1991/about_me/tree/master/notes/spark_on_mikrus
+
 **Goal**: Learning to create and manage a Spark cluster
 
 **Description**: 
