@@ -1,0 +1,30 @@
+services:
+  spark-master:
+    image: bitnami/spark:3.5.0
+    container_name: spark-master
+    ports:
+      - "YOUR_PORT_1:8080"  # Spark Master Web UI
+      - "YOUR_PORT_2:7077"  # Spark Master Port
+    environment:
+      - SPARK_MODE=master
+      
+  jupyter:
+    image: jupyter/pyspark-notebook:x86_64-spark-3.5.0
+    container_name: jupyter
+    environment:
+      - PYSPARK_MASTER=spark://spark-master:YOUR_PORT_2
+      - SPARK_DRIVER_PORT=YOUR_PORT_5
+      - SPARK_UI_PORT=4040
+    ports:
+      - "YOUR_PORT_5:YOUR_PORT_5"  # Spark Driver
+      - "YOUR_PORT_6:8888"  # Jupyter
+      - "YOUR_PORT_7:YOUR_PORT_7"  # Spark UI
+      - "YOUR_PORT_8:YOUR_PORT_8"    # spark.blockManager.port
+    volumes:
+      - ./notebooks:/home/jovyan/work
+      - jupyter_data:/home/jovyan
+    depends_on:
+      - spark-master
+
+volumes:
+  jupyter_data:

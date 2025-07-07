@@ -1,0 +1,12 @@
+services:
+  spark-worker-1:
+    image: bitnami/spark:3.5.0
+    container_name: spark-worker-1
+    ports:
+      - "YOUR_PORT_3:8081"  # Spark Worker Web UI
+    environment:
+      - SPARK_MODE=worker
+      - SPARK_WORKER_CORES=1
+      - SPARK_WORKER_MEMORY=2G
+      - SPARK_MASTER_URL=spark://srv01.mikr.us:YOUR_PORT_2
+      - SPARK_WORKER_PORT=YOUR_PORT_4
