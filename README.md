@@ -17,7 +17,7 @@ I aim to deepen my knowledge of data modeling and building data-driven organizat
 | Flask      | ++    |
 | Linux      | ++    |
 | Grafana    | ++    |
-| JavaScript | ++    |
+| JavaScript | +    |
 
 
 
