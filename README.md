@@ -71,7 +71,21 @@ On the mikr.us platform, I aim to learn how distributed computing applications w
     - Docker
 
 
+### Lunch Analysis
 
+**Goal**: Data collection and analysis of meals available through the SmartLunch application delivered to my workplace.
+
+**Description**: 
+Over a 6-month period in 2023, I collected data from the SmartLunch application API regarding available meals and their pricing. I reverse-engineered the application API, stored the data in an SQLite database, and conducted a comprehensive analysis of the available meal options.
+
+**Stack**:
+- Python
+    - requests
+    - SQLAlchemy
+    - Pandas
+    - Altair
+- Database
+    - SQLite
 
 
 ## Courses
