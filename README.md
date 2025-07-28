@@ -19,7 +19,7 @@ I aim to deepen my knowledge of data modeling and building data-driven organizat
 | 🐧Linux      | ++    |
 | 📈 Grafana   | ++    |
 | JavaScript   | +     |
-| BigQuery     | +     |
+| ☁️BigQuery   | +     |
 
 
 
