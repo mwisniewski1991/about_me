@@ -21,13 +21,11 @@ I aim to deepen my knowledge of data modeling and building data-driven organizat
 | JavaScript   | +     |
 | ☁️BigQuery   | +     |
 
-
-
-
 Legends:
 - `+++` - commercial experience
 - `++`  - private projects experience
 - `+`   - learning experience
+
 
 ## Currently 🆙
 📱Exploring IoT <br/>
@@ -35,7 +33,7 @@ Legends:
 
 
 ## Courses 📂
- ✅ **Associate Data Practitioner** - Google Cloud Platform - **2025.06**
+ ✅ **Associate Data Practitioner** - Google Cloud Platform - **2025.07**
 
  ✅ **Data Engineering Bootcamp** - DataExpert.io - **2025.01**
 
@@ -57,6 +55,23 @@ Legends:
 
 ## My Projects 🔥
 
+### 📱 IoT Personal Hub
+
+https://github.com/mwisniewski1991/iot_personal_hub
+
+**Goal**: Create system to track and visualize data from iot devices.
+
+**Stack**: Python (Streamlit), PostgreSQL, Docker, Apache Airflow
+
+
+### YouTube Statistics Dashboard
+
+https://https://github.com/mwisniewski1991/zero_stats
+**Goal**: Create Dashboard for tracking YouTube Channel
+
+**Stack**: Python (Flask), PostgreSQL, Docker, Apache Airflow
+
+
 ### Budget Tracker 💵
 *In progress project*
 
@@ -70,31 +85,18 @@ In the past I use Excel to track my budget. Now I want to try to create my own a
 **Stack**: Python (Flask, SQLAlchemy, WTForms), PostgreSQL, Docker
 
 
-### Spark on Mikrus ⚡
-
-https://github.com/mwisniewski1991/about_me/tree/master/notes/spark_on_mikrus
-
-**Goal**: Learning to create and manage a Spark cluster
-
-**Description**: 
-On the mikr.us platform, I aim to learn how distributed computing applications work in a development environment. Learning distributed computing applications in a server environment makes more sense to me than running everything on a local machine. Since mikr.us has shared resources, running a full-fledged Spark instance is not feasible on this platform.
-
-**Stack**: Python, Spark, Docker
-
 
 ### Lunch Analysis 🍎
 
 https://github.com/mwisniewski1991/smartlunch_analysis
 
 **Goal**: Data collection and analysis of meals available through the SmartLunch application delivered to my workplace.
-
 **Description**: 
 Over a 6-month period in 2023, I collected data from the SmartLunch application API regarding available meals and their pricing. I reverse-engineered the application API, stored the data in an SQLite database, and conducted a comprehensive analysis of the available meal options.
-
 **Stack**: Python (requests, SQLAlchemy, Pandas, Altair), SQLite
-
 
 
 ## Contact 
 📧 Email: m.wisniewski1991@gmail.com <br/>
-🔗 [LinkedIn](https://www.linkedin.com/in/mwisniewski1991)
+🔗 [LinkedIn](https://www.linkedin.com/in/mwisniewski1991)  <br>
+🌐 [Website](https://mwisniewski1991.pl/)
